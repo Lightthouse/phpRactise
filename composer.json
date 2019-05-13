@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "NTSchool\\": "./src"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^3.3",
+        "aura/router": "^3.1",
+        "illuminate/view": "^5.8",
+        "illuminate/database": "^5.8",
+        "guzzlehttp/psr7": "^1.5",
+        "aura/di": "^3.4",
+        "illuminate/validation": "^5.8"
+    }
+}
