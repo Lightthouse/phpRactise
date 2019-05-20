@@ -1,7 +1,5 @@
 <?php
 
-use RandomUser\Generator;
-
     require_once "../vendor/autoload.php";
     require_once "../config/dotenv.php";
     require_once "../config/database.php";
@@ -9,7 +7,13 @@ use RandomUser\Generator;
     require_once "../config/router.php";
     require_once "../config/container.php";
 
-$serverRequest = \GuzzleHttp\Psr7\ServerRequest::fromGlobals();
+$randomMan = new \NTSchool\Dependency\Adapter\RandomPavliha();
+//$randomMan = new \NTSchool\Dependency\Adapter\StepanRandom();
+
+var_dump($randomMan->generateUser());
+var_dump($randomMan->generateParams());
+
+/*$serverRequest = \GuzzleHttp\Psr7\ServerRequest::fromGlobals();
 
 $matcher = $routerContainer->getmatcher();
 
@@ -28,4 +32,4 @@ if($action = $matcher->match($serverRequest)){
     $response->getBody()->write(call_user_func($action,$serverRequest));
 
     echo $response->getBody();
-}
+}*/
