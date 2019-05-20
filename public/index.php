@@ -9,7 +9,6 @@ use RandomUser\Generator;
     require_once "../config/router.php";
     require_once "../config/container.php";
 
-
 $serverRequest = \GuzzleHttp\Psr7\ServerRequest::fromGlobals();
 
 $matcher = $routerContainer->getmatcher();
