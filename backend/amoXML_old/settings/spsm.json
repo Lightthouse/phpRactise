@@ -1,0 +1,16 @@
+{
+    "amouser":"cherokie@list.ru",
+    "amohash":"00db194cc9e894302f0d1110fabda2af",
+    "subdomain":"spsm",
+    "name":"СибПромСтрой Москва",
+    "statuses":{
+        "reserve":"12676095",
+        "payment":"12676104",
+        "documents":"12676113",
+        "dkp":"20675677",
+        "mfc":"12761451",
+        "release":"12761454",
+        "completed":"142",
+        "closed":"143"
+    }
+}

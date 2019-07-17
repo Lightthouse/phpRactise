@@ -1,0 +1,16 @@
+{
+    "amouser":"reg@sps86.com",
+    "amohash":"dda4ca9b75b0c9791a323018a797d7d6",
+    "subdomain":"sps86",
+    "name":"СибПромСтрой Сургут",
+    "statuses":{
+        "reserve":"17297515",
+        "payment":"17297761",
+        "documents":"17297767",
+        "dkp":"20675668",
+        "mfc":"17297773",
+        "release":"17496154",
+        "completed":"142",
+        "closed":"143"
+    }
+}
